@@ -1,6 +1,6 @@
 import express from 'express';
 import User from '../models/User.js';
-import bcrypt from 'bcryptjs';
+import bcrypt from "bcryptjs";
 import jwt from 'jsonwebtoken';
 import { authMiddleware } from '../middleware/authMiddleware.js';
 
