@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:5173",               
-  "https://your-frontend.vercel.app"    
+  "https://ecowear-front-end.vercel.app/"
 ];
 
 app.use(cors({ origin: allowedOrigins, credentials: true }));
